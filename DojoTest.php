@@ -52,9 +52,9 @@ final class DojoTest extends TestCase {
 
     public function testEndIsSmallerThan10(): void {
 
-        $res = transform(8, 2);
+        $res = transform(8, 10);
         $this->assertEquals(
-            'La fin ne peut pas etre dépassé 9',
+            'La fin ne peut pas dépasser 9',
             $res
         );
     }
